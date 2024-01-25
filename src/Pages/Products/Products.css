@@ -1,0 +1,74 @@
+.pro {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.page {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pgleft {
+  flex: 1 0 0;
+  width: auto;
+  height: auto;
+}
+.pgleft img {
+  width: 721px;
+  height: 759px;
+  flex-shrink: 0;
+}
+.pgright {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.wrapper {
+  margin-top: 51px;
+  height: auto;
+  width: auto;
+  margin-left: 62px;
+  margin-right: 52px;
+}
+
+.wrap1 {
+  margin-top: 40px;
+  width: auto;
+  height: auto;
+  margin-left: 40px;
+  color: #2a254b;
+  font-family: "Clash Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrap2 {
+  margin-left: 40px;
+  width: auto;
+  height: auto;
+  margin-top: 12px;
+  color: #12131a;
+  font-family: "Satoshi";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrap3 {
+  margin-left: 40px;
+  margin-top: 54px;
+  width: auto;
+  height: auto;
+  color: #505977;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
